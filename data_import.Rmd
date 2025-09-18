@@ -38,3 +38,16 @@ skimr::skim(litters_df)
 ```
 
 dont put view in this part, only in console to make knit easy
+
+
+## options to read_csv
+
+```{r}
+litters_df = read_csv("./data/FAS_litters.csv")
+```
+
+check out `?read_csv()` for more information.
+
+
+
+
